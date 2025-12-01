@@ -1,0 +1,7 @@
+{
+  "name": "Maestro Día 1",
+  "description": "Asistente de IA especializado en el contenido del Día 1 del Seminario Internacional de Inteligencia Energética.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
