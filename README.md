@@ -2,20 +2,21 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Maestro Día 1 - Asistente de IA para Seminario de Inteligencia Energética
+# Maestro - Asistente de IA para Seminario de Inteligencia Energética
 
-Asistente de inteligencia artificial especializado en el contenido del **Seminario Internacional de Inteligencia Energética**. Esta aplicación proporciona una experiencia interactiva para aprender y practicar técnicas de regulación emocional, procesamiento de memorias y transformación personal.
+Asistente de inteligencia artificial especializado en el contenido completo del **Seminario Internacional de Inteligencia Energética**. Esta aplicación proporciona una experiencia interactiva para aprender y practicar técnicas de regulación emocional, procesamiento de memorias y transformación personal a lo largo de todo el seminario.
 
 ## 📋 Descripción
 
-Maestro Día 1 es una aplicación web interactiva que actúa como tutor personal de IA, diseñada para acompañar a los participantes del seminario en su proceso de aprendizaje. La aplicación incluye contenido estructurado para múltiples días del seminario, ejercicios guiados, y una interfaz de chat y voz para interactuar con el asistente.
+**Maestro** es una aplicación web interactiva que actúa como tutor personal de IA, diseñada para acompañar a los participantes del seminario en su proceso de aprendizaje completo. La aplicación incluye contenido estructurado para todos los días del seminario (Día 1, Día 2 y Día 3), ejercicios guiados, y una interfaz de chat y voz para interactuar con el asistente. El maestro se adapta automáticamente al día seleccionado, proporcionando respuestas contextualizadas y conocimiento especializado según el contenido del día.
 
 ## ✨ Características Principales
 
-### 🎓 Contenido Estructurado
-- **Día 1**: Neurobiología, Ventana de Tolerancia, Técnicas de Regulación, Palancas del Estado, Neuroplasticidad
-- **Día 2**: TRSB (Técnica de Reprocesamiento), PONS (Procesamiento Ocular), Context Engineering
-- **Día 3**: Contenido avanzado de integración y procesamiento
+### 🎓 Contenido Completo del Seminario
+Maestro cubre todo el contenido del Seminario Internacional de Inteligencia Energética:
+- **Día 1**: Neurobiología de la Regulación, Ventana de Tolerancia, Técnicas de Regulación, Las 4 Palancas del Estado, Neuroplasticidad, Recursos Personales y Rituales de Consolidación
+- **Día 2**: TRSB (Técnica de Reprocesamiento Somato-Cognitivo Bilateral), PONS (Procesamiento Ocular del Sistema Nervioso), Context Engineering y técnicas avanzadas de procesamiento
+- **Día 3**: Contenido avanzado de integración, procesamiento profundo y consolidación del aprendizaje
 
 ### 💬 Interfaz de Chat
 - Conversación natural con el asistente de IA
@@ -124,8 +125,8 @@ maestro-día-1/
 
 ## 📖 Uso
 
-### Seleccionar un Día
-Usa el selector de día en la parte superior para cambiar entre Día 1, Día 2 y Día 3. El asistente ajustará automáticamente su conocimiento y respuestas según el día seleccionado.
+### Seleccionar un Día del Seminario
+Usa el selector de día en la parte superior para cambiar entre Día 1, Día 2 y Día 3. **Maestro** ajustará automáticamente su conocimiento y respuestas según el día seleccionado, proporcionando información especializada y contextualizada para cada fase del seminario.
 
 ### Explorar Temas
 Navega por la lista de temas para ver los subtemas disponibles. Puedes hacer clic en cualquier tema para iniciar una conversación sobre él.
@@ -170,9 +171,11 @@ Los archivos estáticos se generarán en la carpeta `dist/` y pueden ser servido
 ## 📝 Notas Importantes
 
 - La aplicación requiere una clave API de Gemini válida
-- El contenido de los días 2 y 3 se carga desde archivos Markdown en `knowledge-base/`
+- El contenido completo del seminario (Día 1, Día 2 y Día 3) está integrado en la aplicación
+- El contenido de los días 2 y 3 se carga dinámicamente desde archivos Markdown en `knowledge-base/`
 - Las conversaciones se almacenan localmente en el navegador
 - La interfaz de voz requiere permisos de micrófono
+- **Maestro** se adapta automáticamente al día seleccionado, proporcionando respuestas especializadas para cada fase del seminario
 
 ## 🔗 Enlaces
 
